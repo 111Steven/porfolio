@@ -87,17 +87,17 @@ background-color: #370a6d;
     font-size: 40px;
     border-radius: 22px;
 }
-#proyectos footer{
+#proyectos footer, #sobre-mi footer{
     color: #ff4a49;
 }
-#proyectos footer a{
+#proyectos footer a, #sobre-mi footer a{
     color: #ff4a49;
 }
-#proyectos footer .fa-github{
+#proyectos footer .fa-github, #sobre-mi footer .fa-github {
     color: #ff4a49;
     font-size: 30px;
 }
-#proyectos footer .fa-linkedin-in{
+#proyectos footer .fa-linkedin-in, #sobre-mi footer .fa-linkedin-in{
     color: #ff4a49;
     background-color: white;
     font-size: 28px;
@@ -149,6 +149,42 @@ background-color: #370a6d;
 .foto-perfil{
     border-radius: 600px;
     height: 300px;
+}
+#Stack-tecnologico{
+    background-color: #E20000;
+}
+
+#experiencia{
+    margin: auto;
+}
+h2{
+    color: #370A6D;
+}
+h3{
+    font-size: 18px;
+    color: #6a6a6a;
+}
+h4{
+    font-size: 17px;
+    color: #370A6D;
+}
+h5{
+    font-size: 14px;
+}
+.img-depc{
+    padding: 48px;
+}
+#idiomas-hobbies{
+    color: #EEEEEE;
+}
+.fa-comments{
+    content: "\f086";
+}
+#idiomas-hobbies i{
+    font-size: 80px;
+}
+#idiomas-hobbies-ul{
+    color: #282828;
 }
 
 @media (max-width: 750px) {
