@@ -151,28 +151,62 @@ background-color: #370a6d;
     height: 300px;
 }
 #Stack-tecnologico{
-    background-color: #E20000;
+    background: rgb(124,6,6);
+    background: linear-gradient(90deg, rgba(124,6,6,1) 11%, rgba(255,0,0,1) 47%);
 }
-
+#Stack-tecnologico h2{
+    color: white;
+    font-size: 24px;
+}
+#Stack-tecnologico h3{
+    color: black;
+    font-size: 14px;
+    font-weight: 300px;
+}
+#Stack-tecnologico .tecnología{
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    height: 182px;
+}
+#Stack-tecnologico .tecnología img{
+    height: 60px;
+}
+.Stack{
+    color: #FFFFFF;
+}
 #experiencia{
     margin: auto;
 }
-h2{
+#experiencia h2, #formacion-academica h2, #curso-desarrollo h2{
+    font-size: 24px;
     color: #370A6D;
+    font-weight: 400px;
 }
-h3{
+#experiencia h3{
     font-size: 18px;
     color: #6a6a6a;
+    font-weight: 600px;
 }
-h4{
-    font-size: 17px;
+#experiencia h4{
+    font-size: 24px;
     color: #370A6D;
+    font-weight: 400px;
 }
-h5{
-    font-size: 14px;
+#experiencia h5{
+    font-size: 24px;
+    color:#370A6D;
+    font-weight: 400px;
 }
-.img-depc{
-    padding: 48px;
+.gris{
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.gris:hover{
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
 }
 #idiomas-hobbies{
     color: #EEEEEE;
@@ -186,7 +220,6 @@ h5{
 #idiomas-hobbies-ul{
     color: #282828;
 }
-
 @media (max-width: 750px) {
     #contacto, #inicio {
         background-image: url(../images/fondo-proyectos.png);
